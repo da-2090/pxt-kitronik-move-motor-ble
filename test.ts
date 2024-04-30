@@ -15,9 +15,3 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(200)
     Kitronik_Move_Motor.stop()
 })
-let moveMotorZIP = Kitronik_Move_Motor.createMoveMotorZIPLED(4)
-moveMotorZIP.showRainbow(1, 360)
-basic.forever(function () {
-    moveMotorZIP.rotate(1)
-    moveMotorZIP.show()
-})

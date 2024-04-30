@@ -1,12 +1,11 @@
 {
-    "name": "pxt-kitronik-move-motor",
+    "name": "pxt-kitronik-move-motor-ble",
     "version": "0.4.17",
-    "description": "Blocks to simplify using Kitronik MOVE Motor board in PXT",
+    "description": "Blocks to simplify using Kitronik MOVE Motor board in PXT whit BLE suppoort no lights",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "microphone": "*",
-        "Kitronik_WS2811": "github:KitronikLtd/pxt-kitronik-ws2811#v0.0.2"
+        "microphone": "*"
     },
     "files": [
         "main.ts",

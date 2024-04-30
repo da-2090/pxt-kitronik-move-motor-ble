@@ -1,4 +1,6 @@
-# pxt-kitronik-move-motor
+# pxt-kitronik-move-motor-ble
+
+IMPORTANT: this fork sacrifices access to the lights to access the bluetooth extension.
 
 Custom blocks for the :MOVE Motor for BBC micro:bit (www.kitronik.co.uk/5683).
 The blocks in this extension are in four main groups: Lights, Sensors, Motors and Sounds.
