@@ -3,10 +3,6 @@
  */
 //% weight=100 color=#00A654 icon="\uf1b9" block="MOVE Motor"
 //% groups='["Ultrasonic", "Drive", "Setup", "Motor Control"]'
-declare namespace Kitronik_WS2811 {
-    function sendBuffer(buf: Buffer, pin: DigitalPin): void
-}
-
 namespace Kitronik_Move_Motor {
     // PCA9632 registers for motor control on V1.0 / V2.0 boards.
     const CHIP_ADDR = 0x62
