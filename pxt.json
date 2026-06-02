@@ -1,16 +1,18 @@
 {
     "name": "pxt-kitronik-move-motor",
-    "version": "0.4.18",
+    "version": "0.4.19",
     "description": "Motor and ultrasonic blocks for Kitronik MOVE Motor board",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "Kitronik_WS2811": "github:KitronikLtd/pxt-kitronik-ws2811#v0.0.2"
+        "bluetooth": "*"
     },
     "files": [
+        "ws2811.ts",
+        "sendBuffer.asm",
+        "setBufferMode.asm",
         "main.ts",
         "README.md",
-        "LightsandSound.md",
         "UsingUltrasonic.md",
         "AdvancedDrawingRobot.md",
         "AdvancedMotorAdjustment.md",
@@ -21,11 +23,9 @@
         "Klaw.md",
         "_locales/fr/pxt-kitronik-move-motor-jsodc-strings.json",
         "_locales/fr/pxt-kitronik-move-motor-strings.json",
-        "_locales/fr/LightsandSound.md",
 
         "_locales/nl/pxt-kitronik-move-motor-jsdoc-strings.json",
         "_locales/nl/pxt-kitronik-move-motor-strings.json",
-        "_locales/nl/LightsandSound.md",
         "_locales/nl/UsingUltrasonic.md",
         "_locales/nl/DrawingRobot.md",
         "_locales/nl/LineFollowing.md",
@@ -35,7 +35,6 @@
 
         "_locales/es/pxt-kitronik-move-motor-jsdoc-strings.json",
         "_locales/es/pxt-kitronik-move-motor-strings.json",
-        "_locales/es/LightsandSound.md",
         "_locales/es/UsingUltrasonic.md",
         "_locales/es/DrawingRobot.md",
         "_locales/es/LineFollowing.md",
